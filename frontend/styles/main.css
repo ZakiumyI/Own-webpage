@@ -11,6 +11,7 @@
 /* 3. Sections */
 @import "../sections/header/header.css";
 @import "../sections/hero/hero.css";
+@import "../sections/about/about.css";
 
 
 /* 4. Components */
@@ -24,11 +25,13 @@ html, body {
 
 header {
   height: var(--header-height);
-  position: sticky;
+  position: fixed;
   width: calc(100% - var(--spacing-header-rl)*2);
   top: 0;
   z-index: 100;
   background: var(--color-header);
-  display: block;
   padding: var(--spacing-header-tb) var(--spacing-header-rl);
+  display: block;
 }
+
+

@@ -18,8 +18,8 @@ export async function HomePage() {
 
   // Sections
   app.appendChild(await HeroSection());
+  app.appendChild(await AboutSection());
   app.appendChild(await ProfileSection());
-  // app.appendChild(await AboutSection());
   app.appendChild(await ForumPreviewSection());
   app.appendChild(await FeaturesSection());
   app.appendChild(await ExtrasHomeSection());
