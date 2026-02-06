@@ -1,0 +1,32 @@
+/**
+ * ================================
+ * styles/main.css
+ * ================================
+ */
+
+/* 1. Base */
+@import "./tokens.css";
+
+/* 2. Pages */
+/* 3. Sections */
+@import "../sections/header/header.css";
+
+
+/* 4. Components */
+@import "../components/search/search.css";
+@import "../components/button/button.css";
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  position: sticky;
+  width: 100%;
+  top: 0;
+  z-index: var(--z-header);
+  background: var(--color-header);
+  display:block;
+  padding: var(--spacing-header-tb) var(--spacing-header-rl);
+}

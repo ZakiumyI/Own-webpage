@@ -1,0 +1,92 @@
+/**
+ * ================================
+ * sections/header/header.css
+ * ================================
+ */
+
+.header {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 5% ;
+  padding-right: 5%;
+}
+
+.header-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.header-left img{
+    width: var(--imagen-header-logo);
+}
+.header-left span{
+    padding-top: var(--spacing-sm);
+    font-weight: 900;
+    color: var(--color-text-secondary);
+}
+
+.container-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  transition: transform 0.25s ease;
+}
+
+.container-logo:hover {
+  transform: scale(1.08);
+}
+
+
+
+
+
+.header-center{
+    width: 20%;
+}
+.header-right{
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.iniciar-sesion {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-sm);
+  color: var(--color-text-secondary);
+  text-decoration: underline;
+  cursor: pointer;
+
+  transition: transform 0.25s ease;
+}
+.iniciar-sesion:hover {
+  transform: scale(1.05);
+}
+
+.login-icon {
+  background-color: var(--color-secondary);
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 48px;
+  height: 48px;
+
+  transition: box-shadow 0.25s ease, transform 0.25s ease;
+}
+
+.iniciar-sesion:hover .login-icon {
+  box-shadow: 0 0 10px rgba(255,255,255,0.35);
+  transform: scale(1.1);
+}
+
+.login-icon img{
+    transform: translateY(5px);
+}
+

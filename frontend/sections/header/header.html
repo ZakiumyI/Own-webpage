@@ -1,8 +1,34 @@
-<nav class="header-nav">
-  <button id="nav-home">Inicio</button>
-  <button id="nav-profile">Perfil</button>
-  <button id="nav-papers">Papers</button>
-  <button id="nav-proyectos">Proyectos</button>
-  <button id="nav-trayecto-laboral">Trayecto laboral</button>
-  <button id="nav-divulgacion">Divulgación</button>
-</nav>
+<!-- sections/header/header.html -->
+
+<div class="header">
+
+  <div class="header-left">
+    <div class="container-logo">
+      <img src="/assets/images/logo.png" class="logo" />
+      <span class="site-title">Zakiumy</span>
+    </div>
+  </div>
+
+  <div class="header-center" id="header-search"></div>
+  
+  <div class="header-right">
+    <nav class="header-nav">
+      <button class="btn btn-nav" data-route="home">Inicio</button>
+      <button class="btn btn-nav" data-route="profile">Clases</button>
+      <button class="btn btn-nav" data-route="papers">Papers</button>
+      <button class="btn btn-nav" data-route="proyectos">Proyectos</button>
+      <button class="btn btn-nav" data-route="trayecto-laboral">Trayecto laboral</button>
+      <button class="btn btn-nav" data-route="divulgacion">Divulgación</button>
+    </nav>
+    <button class="iniciar-sesion" data-route="login">
+      <div class="login-icon">
+        <img src="/assets/icons/user-solid-full.svg">
+      </div>
+      Iniciar sesion
+    </button>
+  </div>
+
+
+
+</div>
+

@@ -1,0 +1,58 @@
+.btn {
+  padding: var(--spacing-sm) var(--spacing-md);
+  border-radius: var(--radius-sm);
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  position: relative;
+  font-weight: 900;
+}
+
+.iniciar-sesion{
+    background: transparent;
+    border: none;
+}
+.iniciar-sesion:hover{
+    cursor: pointer;
+}
+
+/* Botón nav */
+.btn-nav {
+  color: var(--color-secondary); /* blanco */
+  transition: color 0.25s ease;
+  text-transform: uppercase;
+}
+
+.btn-nav::before {
+  content: "";
+  position: absolute;
+  left: 10%;
+  bottom: 2px;
+  width: 80%;
+  height: 2px;
+  background: var(--color-secondary);
+  opacity: 0;
+  filter: blur(2px);
+  transform: scaleX(0.6);
+  transition:
+    opacity 0.25s ease,
+    transform 0.25s ease;
+}
+
+/* Hover */
+.btn-nav:hover::before {
+  opacity: 1;
+  transform: scaleX(1);
+}
+
+/* Separador vertical */
+.btn-nav:not(:last-child)::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 25%;
+  height: 50%;
+  width: 1px;
+  background: var(--color-secondary);
+  opacity: 0.35;
+}
