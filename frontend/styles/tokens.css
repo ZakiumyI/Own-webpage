@@ -8,7 +8,7 @@
   /* COLORES */
   --color-primary: #000000;
   --color-secondary: #ffffff;
-  --color-background: #f5f5f5;
+  --color-background: #ffffff;
   --color-header: #000000;
 
   /* COLOR TEXT */
@@ -20,6 +20,7 @@
   --font-heading: "Roboto Slab", serif;
 
   /* ESPACIADOS */
+  --header-height: 5rem;
   --spacing-header-tb: 1rem;
   --spacing-header-rl: 2rem;
   --spacing-xs: 4px;
@@ -29,6 +30,7 @@
 
   /* TAMAÑOS */
   --imagen-header-logo: 64px;
+  --imagen-hero-logo: 256px;
   
   /* SOMBRAS */
   --shadow-card: 0 4px 8px rgba(0,0,0,0.1);

@@ -10,6 +10,7 @@
 /* 2. Pages */
 /* 3. Sections */
 @import "../sections/header/header.css";
+@import "../sections/hero/hero.css";
 
 
 /* 4. Components */
@@ -22,11 +23,12 @@ html, body {
 }
 
 header {
+  height: var(--header-height);
   position: sticky;
-  width: 100%;
+  width: calc(100% - var(--spacing-header-rl)*2);
   top: 0;
-  z-index: var(--z-header);
+  z-index: 100;
   background: var(--color-header);
-  display:block;
+  display: block;
   padding: var(--spacing-header-tb) var(--spacing-header-rl);
 }

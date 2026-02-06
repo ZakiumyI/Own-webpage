@@ -1,0 +1,73 @@
+.hero {
+  position: relative;
+  height: 200vh;
+  width: 100%;
+
+  overflow-x: hidden;
+  overflow-y: visible;
+}
+
+.hero-bg-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  height: 150vh;
+  width: 100%;
+
+  pointer-events: none;
+  z-index: 1;
+}
+
+.hero-fondo {
+  position: fixed;
+  top: 0;
+
+  height: 110vh;
+  width: 104%;
+  left: -3%;
+
+  background-image: url("/assets/images/bghero_1.jpg");
+  background-size:auto;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.hero-main,
+.hero-content {
+  position: relative;
+  z-index: 2;
+}
+
+.hero-main {
+  font-size: 2rem;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+
+  color: white;
+}
+
+.hero-main-content {
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero-logo img {
+  width: var(--imagen-hero-logo);
+}
+
+.hero-content {
+  height: 100vh;
+  background-color: var(--color-background);
+}

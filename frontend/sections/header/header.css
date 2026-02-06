@@ -5,12 +5,10 @@
  */
 
 .header {
-  width: 90%;
+  width: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
-  padding-left: 5% ;
-  padding-right: 5%;
 }
 
 .header-left{
