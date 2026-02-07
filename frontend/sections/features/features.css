@@ -201,3 +201,21 @@
 .pagination-dot.active {
   background: white;
 }
+.btn-ver {
+  margin-top: auto;
+  align-self: center;
+
+  padding: 0.5rem 1rem;
+  border-radius: 999px;
+  background: #444;
+  color: white;
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: all 0.2s ease;
+}
+
+.btn-ver:hover {
+  background: #000;
+  transform: translateY(-2px);
+}
+

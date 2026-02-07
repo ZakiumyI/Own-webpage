@@ -96,7 +96,7 @@ export async function FeaturesSection() {
 
         <div class="proyecto-desc">${item.descripcion}</div>
 
-        <a href="${item.url}" target="_blank">
+        <a href="${item.url}" target="_blank" class="btn-ver">
           ${mode === "projects" ? "Ver proyecto" : "Ver video"}
         </a>
       `;
