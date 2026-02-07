@@ -140,21 +140,6 @@
     margin-bottom: 0;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* ============================
    CONTENEDOR GENERAL
    ============================ */
@@ -240,11 +225,10 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-auto-rows: 1fr;
-    gap: 2rem 4%;
+    gap: 1rem 2%;
     width: 100%;
     padding-bottom: 2rem;
 
-    align-items: stretch; /* 🔑 iguala alturas por fila */
 }
 
 /* ============================
@@ -272,8 +256,6 @@
     background-color: var(--color-primary);
     border-radius: 4px;
 }
-
-
 
 .tesis-tarjeta:hover {
     background: rgba(255, 255, 255, 0.06);
@@ -351,10 +333,6 @@
         padding: 2rem;
     }
 }
-
-
-
-
 
 .bg-space{
     position: fixed;

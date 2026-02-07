@@ -1,0 +1,65 @@
+[{
+    "title": "Directora de tesis de",
+    "nombre":"Carlos Cerda",
+    "descripcion":"(Sin proyecto de tesis aún).",
+    "imagen": "Equipo_Cerda_Carlos",
+    "año_inicio": 2024,
+    "año_termino": null
+},
+{
+    "title": "Directora de tesis de Magíster de",
+    "nombre":"Víctor Alejandro Muñoz",
+    "descripcion":"Co-dirigida por el profesor Stephen Walborn (Universidad de Concepción). Título de Proyecto de tesis: \"Advancing Optical Sensing and Device Integration in Multi-Core Fibers\".",
+    "imagen": "Equipo_Muñoz_Alejandro",
+    "año_inicio": 2022,
+    "año_termino": null
+},
+{
+    "title": "Co-Directora de tesis de Doctorado de",
+    "nombre":"Mariano Uria",
+    "descripcion":"(Director de tesis Pablo Solano, Universidad de Concepción). Proyecto de tesis: \"Generación y Tomografía de Estados cuánticos de la Luz\".",
+    "imagen": "Equipo_Uria_Mariano",
+    "año_inicio": 2021,
+    "año_termino": null
+},
+{
+    "title": "Directora de tesis de Magister de",
+    "nombre":"Jennifer Parra",
+    "descripcion":"Co-dirigida por el profesor Pablo Solano (Universidad de Concepción), titulada: \"Eletrodinámica Cuántica en Guías de Ondas: Una Plataforma para la Ingeniería del Campo Eletromagnético\".",
+    "imagen": "Equipo_Contreras_Jennifer",
+    "año_inicio": 2019,
+    "año_termino": 2023
+},
+{
+    "title": "Directora de tesis de",
+    "nombre":"Fabián Ramírez",
+    "descripcion":"Título proyecto de tesis: \"Generación de TMSS via FWM en vapor de 85Rb: caracterización y aplicaciones\".",
+    "imagen": "Equipo_Ramírez_Fabián",
+    "año_inicio": 2023,
+    "año_termino": null
+},
+{
+    "title": "Directora de tesis de Magister de",
+    "nombre":"Gerd Hartmann",
+    "descripcion":"Co-dirigida por el profesor Pablo Solano (Universidad de Concepción). Título proyecto de tesis: \"Hacia la caracterizacion de estados coherentes generalizados mediante funcion de correlacion intensidad-campo y entropias de entrelazamiento\".",
+    "imagen": "Equipo_Hartmann_Gerd",
+    "año_inicio": 2021,
+    "año_termino": null
+},
+{
+    "title": "Directora de tesis de Magister de",
+    "nombre":"Gabriel O'Ryan",
+    "descripcion":"Co-dirigida por el profesor Luis Foà, titulada: \"Transferencia de compresión entre estados de luz comprimidos en sistemas fotónicos topológicos\".",
+    "imagen": "Equipo_O'Ryan_Gabriel",
+    "año_inicio": 2020,
+    "año_termino": 2023
+},
+{
+    "title": "Co-directora de tesis de Magister de",
+    "nombre":"Joaquín Medina",
+    "descripcion":"Dirigida por el profesor Luis Foà, titulada: \"Propagación de luz cuántica en redes fotónicas topológicas\".",
+    "imagen": "Equipo_Medina_Joaquín",
+    "año_inicio": 2019,
+    "año_termino": 2021
+}
+]

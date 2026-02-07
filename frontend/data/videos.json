@@ -1,0 +1,106 @@
+[
+    {
+        "title": "Hola mundo!",
+        "subtitle": "Video donde canto",
+        "descripcion": "En este video salgo bailando la macarena.",
+        "url": "https://www.youtube.com/watch?v=k1ZPji6J9jQ",
+        "fecha": "19-12-2025",
+        "imagen": "video_01.jpg"
+    },
+    {
+        "title": "Video 02",
+        "subtitle": "Tutorial de JavaScript",
+        "descripcion": "Explicación paso a paso de funciones en JS.",
+        "url": "https://www.youtube.com/watch?v=upDLs1sn7g4",
+        "fecha": "05-09-2024",
+        "imagen": "video_02.jpg"
+    },
+    {
+        "title": "Video 03",
+        "subtitle": "Documental de naturaleza",
+        "descripcion": "Explorando la vida salvaje en África.",
+        "url": "https://www.youtube.com/watch?v=eX2qFMC8cFo",
+        "fecha": "12-07-2023",
+        "imagen": "video_03.jpg"
+    },
+    {
+        "title": "Video 04",
+        "subtitle": "Conferencia de Ciencia",
+        "descripcion": "TED Talk sobre el futuro de la inteligencia artificial.",
+        "url": "https://www.youtube.com/watch?v=R9OHn5ZF4Uo",
+        "fecha": "10-02-2025",
+        "imagen": "video_04.jpg"
+    },
+    {
+        "title": "Video 05",
+        "subtitle": "Guitarra acústica",
+        "descripcion": "Cover de una canción popular en guitarra acústica.",
+        "url": "https://www.youtube.com/watch?v=JGwWNGJdvx8",
+        "fecha": "22-03-2024",
+        "imagen": "video_05.jpg"
+    },
+    {
+        "title": "Video 06",
+        "subtitle": "Clases de Python",
+        "descripcion": "Introducción a Python para principiantes.",
+        "url": "https://www.youtube.com/watch?v=_uQrJ0TkZlc",
+        "fecha": "15-11-2025",
+        "imagen": "video_06.jpg"
+    },
+    {
+        "title": "Video 07",
+        "subtitle": "Tour por Marte",
+        "descripcion": "Visualización realista de la superficie marciana.",
+        "url": "https://www.youtube.com/watch?v=QmlRS3fr3fo",
+        "fecha": "01-01-2026",
+        "imagen": "video_07.jpg"
+    },
+    {
+        "title": "Video 08",
+        "subtitle": "Experimentos caseros",
+        "descripcion": "5 experimentos de ciencia que puedes hacer en casa.",
+        "url": "https://www.youtube.com/watch?v=Sb8jnJ9Gph0",
+        "fecha": "08-10-2023",
+        "imagen": "video_08.jpg"
+    },
+    {
+        "title": "Video 09",
+        "subtitle": "Viaje a Japón",
+        "descripcion": "Resumen de un viaje por Tokyo y Kyoto.",
+        "url": "https://www.youtube.com/watch?v=VYTW9y_KO5g",
+        "fecha": "25-04-2025",
+        "imagen": "video_09.jpg"
+    },
+    {
+        "title": "Video 10",
+        "subtitle": "Sesión de yoga",
+        "descripcion": "Rutina de yoga para principiantes.",
+        "url": "https://www.youtube.com/watch?v=v7AYKMP6rOE",
+        "fecha": "30-06-2024",
+        "imagen": "video_10.jpg"
+    },
+    {
+        "title": "Video 11",
+        "subtitle": "Historia del espacio",
+        "descripcion": "Resumen visual de la historia de la exploración espacial.",
+        "url": "https://www.youtube.com/watch?v=0qo78R_yYFA",
+        "fecha": "18-08-2025",
+        "imagen": "video_11.jpg"
+    },
+    {
+        "title": "Video 12",
+        "subtitle": "Matemáticas divertidas",
+        "descripcion": "Conceptos matemáticos explicados con juegos y diversión.",
+        "url": "https://www.youtube.com/watch?v=3y4hLASi89c",
+        "fecha": "27-05-2024",
+        "imagen": "video_12.jpg"
+    },
+        {
+        "title": "Video 13",
+        "subtitle": "Matemáticas divertidas",
+        "descripcion": "Conceptos matemáticos explicados con juegos y diversión.",
+        "url": "https://www.youtube.com/watch?v=3y4hLASi89c",
+        "fecha": "27-05-2024",
+        "imagen": "video_12.jpg"
+    }
+]

@@ -1,0 +1,82 @@
+[
+  {
+    "title": "Simulador N-body CUDA",
+    "status": "en_progreso",
+    "area": "ambas",
+    "descripcion": "Simulación gravitacional de cúmulos estelares usando CUDA, con distribución tipo Plummer y distintos integradores numéricos.",
+    "imagen": "project_nbody.png",
+    "url": "https://github.com/usuario/nbody-cuda"
+  },
+  {
+    "title": "Generador de Condiciones Iniciales",
+    "status": "finalizado",
+    "area": "astronomia",
+    "descripcion": "Herramienta para generar distribuciones iniciales de partículas astrofísicas con parámetros configurables.",
+    "imagen": "project_initial_conditions.png",
+    "url": "https://github.com/usuario/initial-conditions"
+  },
+  {
+    "title": "App para Estudiar Física",
+    "status": "en_progreso",
+    "area": "ambas",
+    "descripcion": "Aplicación web que genera ejercicios avanzados de física de forma procedimental y los valida automáticamente.",
+    "imagen": "project_fisica_app.png",
+    "url": "https://fisica-app.demo"
+  },
+  {
+    "title": "Visualizador de Órbitas",
+    "status": "finalizado",
+    "area": "astronomia",
+    "descripcion": "Visualización interactiva de órbitas planetarias y trayectorias en sistemas dinámicos.",
+    "imagen": "project_orbits.png",
+    "url": "https://orbits-visualizer.demo"
+  },
+  {
+    "title": "Backend Flask Modular",
+    "status": "finalizado",
+    "area": "informatica",
+    "descripcion": "Backend en Flask con autenticación, blueprints y separación clara entre frontend y backend.",
+    "imagen": "project_flask_backend.png",
+    "url": "https://github.com/usuario/flask-backend"
+  },
+  {
+    "title": "Sistema de Configuración de Simulaciones",
+    "status": "en_progreso",
+    "area": "ambas",
+    "descripcion": "Sistema en C/CUDA para definir parámetros de simulaciones científicas mediante menús y archivos de configuración.",
+    "imagen": "project_config_system.png",
+    "url": "https://github.com/usuario/simulation-config"
+  },
+  {
+    "title": "Calendario de Vacaciones Corporativo",
+    "status": "finalizado",
+    "area": "informatica",
+    "descripcion": "Aplicación web para gestionar vacaciones por área, con eventos dinámicos y visualización por estados.",
+    "imagen": "project_calendar.png",
+    "url": "https://vacaciones.demo"
+  },
+  {
+    "title": "Modelo de Potencial Gravitacional",
+    "status": "finalizado",
+    "area": "astronomia",
+    "descripcion": "Implementación de distintos potenciales gravitacionales para simulaciones galácticas.",
+    "imagen": "project_potential.png",
+    "url": "https://github.com/usuario/gravitational-potential"
+  },
+  {
+    "title": "Portfolio Web Interactivo",
+    "status": "en_progreso",
+    "area": "informatica",
+    "descripcion": "Portfolio personal con carruseles dinámicos, carga desde JSON y navegación tipo SPA.",
+    "imagen": "project_portfolio.png",
+    "url": "https://portfolio.demo"
+  },
+  {
+    "title": "Análisis de Ondas Electromagnéticas",
+    "status": "finalizado",
+    "area": "astronomia",
+    "descripcion": "Estudio computacional y teórico de ondas electromagnéticas aplicado a contextos astrofísicos.",
+    "imagen": "project_em_waves.png",
+    "url": "https://github.com/usuario/em-waves"
+  }
+]

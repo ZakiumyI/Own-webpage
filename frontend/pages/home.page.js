@@ -20,8 +20,8 @@ export async function HomePage() {
   app.appendChild(await HeroSection());
   app.appendChild(await AboutSection());
   app.appendChild(await ProfileSection());
-  app.appendChild(await ForumPreviewSection());
   app.appendChild(await FeaturesSection());
+  app.appendChild(await ForumPreviewSection());
   app.appendChild(await ExtrasHomeSection());
 
   // Footer

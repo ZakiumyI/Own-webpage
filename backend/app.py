@@ -1,4 +1,5 @@
-from flask import Flask, send_from_directory
+# backend/app.py
+from flask import Flask, send_from_directory, abort
 from config import Config
 from extensions import login_manager, cors
 from auth.routes import auth_bp
@@ -24,6 +25,20 @@ def create_app():
     def load_user(user_id):
         return User(user_id)
     
+    @app.route("/data/<path:filename>")
+    def serve_data(filename):
+        data_dir = os.path.join(Config.FRONTEND_FOLDER, "data")
+
+        if not os.path.exists(os.path.join(data_dir, filename)):
+            abort(404)
+
+        return send_from_directory(
+            data_dir,
+            filename,
+            mimetype="application/json"
+        )
+
+
     @app.route("/", defaults={"path": ""})
     @app.route("/<path:path>")
     def serve_frontend(path):

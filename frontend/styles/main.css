@@ -13,6 +13,7 @@
 @import "../sections/hero/hero.css";
 @import "../sections/about/about.css";
 @import "../sections/profile/profile.css";
+@import "../sections/features/features.css";
 
 
 /* 4. Components */
@@ -22,6 +23,8 @@
 html, body {
   margin: 0;
   padding: 0;
+  width: 100vw;
+  overflow-x: hidden;
 }
 
 header {
