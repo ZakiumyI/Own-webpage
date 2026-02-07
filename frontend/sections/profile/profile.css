@@ -190,6 +190,7 @@
     font-size: 3rem;
     padding-left: 1rem;
     margin-bottom: 1.5rem;
+    color: var(--color-text-secondary);
 }
 
 .profile-tesis-title::before {
@@ -201,7 +202,7 @@
     width: 6px;
     height: 100%;
 
-    background: var(--color-primary);
+    background: var(--color-text-secondary);
     border-radius: 2px;
 }
 
@@ -363,16 +364,6 @@
     height: 100vh;
     width: 100vw;
     background-image: url("/assets/images/space_bg.jpg");
-    background-size: cover;
-}
-.bg-stars{
-    position: absolute;
-    z-index: -1;
-    bottom: 0;
-    left: 0;
-    height: 100vh;
-    width: 100vw;
-    background-image: url("/assets/images/stars_bg.png");
     background-size: cover;
 }
 
