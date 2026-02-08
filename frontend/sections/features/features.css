@@ -11,6 +11,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-bottom: 10rem;
 }
 
 /* ===== TITLE ===== */
@@ -219,3 +220,117 @@
   transform: translateY(-2px);
 }
 
+
+
+
+/* ===== SECCIÓN GENERAL ===== */
+.features-patrocinadores {
+  width: 100%;
+  padding: 6rem 2rem;
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(
+    180deg,
+    #f2f2f2 0%,
+    #e6e6e6 100%
+  );
+}
+
+.patrocinadores-content {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+/* ===== TITULO ===== */
+.patrocinadores-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  color: #222;
+}
+
+/* ===== DESCRIPCIÓN ===== */
+.patrocinadores-descripcion {
+  max-width: 900px;
+  margin: 0 auto;
+  font-size: 1.05rem;
+  line-height: 1.7;
+  text-align: center;
+  color: #444;
+}
+
+/* ===== LOGOS ===== */
+.patrocinadores-logo {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.patrocinadores-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  flex-wrap: wrap;
+}
+
+.patrocinadores-container img {
+  max-height: 70px;
+  max-width: 160px;
+  object-fit: contain;
+  filter: grayscale(100%);
+  opacity: 0.7;
+  transition: all 0.3s ease;
+}
+
+.patrocinadores-container img:hover {
+  filter: grayscale(0%);
+  opacity: 1;
+  transform: scale(1.05);
+}
+
+/* ===== PARTICIPAR ===== */
+.patrocinadores-participar {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.patrocinadores-participar input {
+  padding: 0.8rem 1rem;
+  min-width: 260px;
+  border-radius: 0.5rem;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+.patrocinadores-participar input:focus {
+  outline: none;
+  border-color: #000;
+}
+
+.patrocinadores-participar button {
+  padding: 0.8rem 1.8rem;
+  border-radius: 0.5rem;
+  border: none;
+  background-color: #111;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.patrocinadores-participar button:hover {
+  background-color: #333;
+  transform: translateY(-2px);
+}
+.eso{
+  border: 1px solid rgba(0, 0, 0, 0.708);
+}

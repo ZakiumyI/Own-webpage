@@ -22,7 +22,7 @@ export async function HomePage() {
   app.appendChild(await ProfileSection());
   app.appendChild(await FeaturesSection());
   app.appendChild(await ForumPreviewSection());
-  app.appendChild(await ExtrasHomeSection());
+  //app.appendChild(await ExtrasHomeSection());
 
   // Footer
   app.appendChild(await FooterSection());

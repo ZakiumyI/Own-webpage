@@ -20,7 +20,7 @@
     flex-direction: row;
 }
 .about-question{
-    padding-right: 24px;
+    padding-right: 10rem;
     display: flex;
     justify-content: end;
     align-items: start;

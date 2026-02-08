@@ -14,6 +14,8 @@
 @import "../sections/about/about.css";
 @import "../sections/profile/profile.css";
 @import "../sections/features/features.css";
+@import "../sections/forum-preview/forum-preview.css";
+@import "../sections/footer/footer.css";
 
 
 /* 4. Components */
